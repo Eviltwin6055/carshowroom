@@ -1,0 +1,99 @@
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+#home {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+#about, #cars, #contact {
+    background-color: #fff;
+}
+
+.car-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.car {
+    width: 30%;
+    text-align: center;
+}
+
+.car img {
+    width: 100%;
+    height: auto;
+}
+.car {
+    width: 30%;
+    text-align: center;
+}
+
+.car img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #33333;
+    color: white;
+}
+
+form input[type="text"], form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+.imglogo{
+    height:100px;
+    width:150px;
+}
